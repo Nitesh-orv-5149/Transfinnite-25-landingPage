@@ -1,9 +1,15 @@
-[# My React App
+Transfinnite '25 – Landing Page Task
 
-## 📦 Setup
+Clone the repository:
+git clone https://github.com/Nitesh-orv-5149/Transfinnite-25-landingPage.git
 
-```bash
-git clone https://github.com/your-username/my-react-app.git](https://github.com/Nitesh-orv-5149/Transfinnite-25-landingPage
+Move into the project directory:
+cd Transfinnite-25-landingPage
+
+Install dependencies:
 npm install
-npm run dev  # or npm start if using Create React App
-](https://github.com/Nitesh-orv-5149/Transfinnite-25-landingPage)
+
+Start the development server:
+npm run dev
+
+Tech Stack: React, Vite, Tailwind CSS
