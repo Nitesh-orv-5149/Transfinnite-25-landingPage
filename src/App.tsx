@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AboutUs from "./components/shared/AboutUs"
+import Faqs from "./components/shared/Faqs"
+import Footer from "./components/shared/Footer"
+import HeroSection from "./components/shared/HeroSection"
+import Judges from "./components/shared/Judges"
+import Navbar from "./components/shared/Navbar"
+import Prizes from "./components/shared/Prizes"
+import Schedule from "./components/shared/Schedule"
+import Sponsers from "./components/shared/Sponsers"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <main className="min-h-screen w-full">
+        <div className="fixed top-0 z-50 w-full">
+          <Navbar/>
+        </div>
+        <HeroSection/>
+        <Schedule/>
+        <Prizes/>
+        <Judges/>
+        <Sponsers/>
+        <AboutUs/>
+        <Faqs/>
+        <Footer/>
+      </main>
+    </>
+  )
 }
 
-export default App;
+export default App
